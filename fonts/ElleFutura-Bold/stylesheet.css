@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Elle Futura';
+    src: url('ElleFutura-Bold.eot');
+    src: url('ElleFutura-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ElleFutura-Bold.woff2') format('woff2'),
+        url('ElleFutura-Bold.woff') format('woff'),
+        url('ElleFutura-Bold.ttf') format('truetype'),
+        url('ElleFutura-Bold.svg#ElleFutura-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SFU Futura';
+    src: url('SFUFuturaHeavy.eot');
+    src: url('SFUFuturaHeavy.eot?#iefix') format('embedded-opentype'),
+        url('SFUFuturaHeavy.woff2') format('woff2'),
+        url('SFUFuturaHeavy.woff') format('woff'),
+        url('SFUFuturaHeavy.ttf') format('truetype'),
+        url('SFUFuturaHeavy.svg#SFUFuturaHeavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

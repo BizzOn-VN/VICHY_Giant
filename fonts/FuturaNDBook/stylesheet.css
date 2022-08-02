@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Futura ND Book';
+    src: url('FuturaNDBook.eot');
+    src: url('FuturaNDBook.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNDBook.woff2') format('woff2'),
+        url('FuturaNDBook.woff') format('woff'),
+        url('FuturaNDBook.ttf') format('truetype'),
+        url('FuturaNDBook.svg#FuturaNDBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

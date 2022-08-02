@@ -48,6 +48,10 @@ jQuery(document).ready(function ($) {
         }
         var fancybox = function(){
             $(".ctn-button").fancybox({
+                'transitionIn'  :   'elastic',
+                'transitionOut' :   'elastic',
+                'speedIn'       :   2000, 
+                'speedOut'      :   200, 
                 'scrolling'     : 'no',
                 'titleShow'     : false,
                 'onClosed'      : function() {
@@ -69,11 +73,17 @@ jQuery(document).ready(function ($) {
             }
         }
         var getplugin = function(){
+              $('.ui.dropdown')
+              .dropdown()
+            ;
+             new WOW().init();
             $('.ui.checkbox').checkbox();
             $(".the-le").fancybox();
             // $("#modal-wrong").fancybox().trigger('click');
             // $("#modal-correct").fancybox().trigger('click');
             // $("#modal-scanqr").fancybox().trigger('click');
+            // $("#modal-sucess").fancybox().trigger('click');
+
         }
 
         return{

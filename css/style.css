@@ -511,6 +511,17 @@ ul li{
 	transform: translate(-50%,-50%);
 	width: 80%;
 }
+.md-wrong .md-content a{
+	font-family: "SFUFuturaHeavy";
+	text-transform: uppercase;
+	background: #FFF;
+	margin-top: 20px;
+	border: 1px solid #000;
+	padding: 5px 15px;
+	border-radius: 0px;
+	color: #000;
+	display: inline-block;
+}
 .md-wrong .md-content h6{
 	font-size: 25px;
 }
@@ -590,6 +601,20 @@ ul li{
 	padding: 5px 20px;
 	font-family: "SFUFuturaBold";
 }
+.md-correct .md-content .md-left-content .ui.selection.dropdown{
+	height: 30px;
+	min-height: auto;
+	padding: 8px 10px;
+	float: right;
+	width: 60%;
+	background: #FFF;
+    border: 1px solid #000;
+    border-radius: 0px;
+    min-width: auto;
+}
+.md-correct .md-content .md-left-content .ui.selection.dropdown>.dropdown.icon{
+	padding: 7px;
+}
 .md-correct .md-content .md-right-content{
 	float: left;
 	width: 45%;
@@ -663,11 +688,53 @@ ul li{
 .futura-bold{
 	font-family: 'SFUFuturaBold' !important;
 }
+.md-modal-fancybox{
+	text-align: center;
+	background: #FFF !important;
+	    width: 40%;
+	    display: none;
+}
+.md-modal-fancybox h3{
+	text-transform: uppercase;
+    color: #00a639;
+    font-size: 20px;
+    font-family: "SFUFuturaBold";
+}
+.md-modal-fancybox p{
+	font-family: "ElleFutura-Medium";
+}
+.md-modal-fancybox a{
+	display: inline-block;
+    color: #FFF;
+    background: #303030;
+    font-family: 'SFUFuturaBold';
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 1.2% 20px;
+    margin: 0.7rem 0px;
+}
+.md-modal-fancybox a:hover{
+    background: #40A959;
+    transition-duration: 0.4s;
+}
+.md-modal-fancybox .fancybox-close-small{
+	display: block !important;
+}
+.md-modal-fancybox svg{
+	background: url(../images/ico-close-popup.png) no-repeat;
+	    -webkit-background-size: 100% 100%;
+	    background-size: 100%;
+	    opacity: 1;
+}
 @media screen and (max-width: 991px) and (min-width: 768px){
 	.md-correct{
 		font-size: 12px;
 	}
 	.md-correct .md-content .md-left-content .md-col-1 input{
+		width: 55%;
+	}
+	.md-correct .md-content .md-left-content .ui.selection.dropdown{
 		width: 55%;
 	}
 }
@@ -855,6 +922,10 @@ ul li{
 		float: none;
 		width: 100%;
 	}
+	.md-correct .md-content .md-left-content .ui.selection.dropdown{
+		float: none;
+		width: 100%;
+	}
 	.md-correct .md-content .md-left-content h6{
 		text-align: center;
 		font-size: 20px;
@@ -864,6 +935,9 @@ ul li{
 	}
 	.md-answer{
 		overflow: auto;
+	}
+	.md-modal-fancybox{
+		width: 90%;
 	}
 }
 @media (max-width: 520px){

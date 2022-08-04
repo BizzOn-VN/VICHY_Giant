@@ -26,6 +26,14 @@ jQuery(document).ready(function ($) {
                 $(this).removeClass('active-2');
                 $('.bg-op').removeClass('active-3');
             });
+            $(".main-page .left-content .md-popup-0").on({
+                mouseenter: function () {
+                    $(".main-page .left-content .md-popup-1").addClass('hover');
+                },
+                mouseleave: function () {
+                    $(".main-page .left-content .md-popup-1").removeClass('hover');
+                }
+            });
         }
         var scrolltoTop = function(){
             // $(window).scroll(function(){
@@ -103,4 +111,5 @@ jQuery(document).ready(function ($) {
     
    
 });    
+
 

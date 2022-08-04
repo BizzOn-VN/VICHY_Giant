@@ -293,6 +293,23 @@ ul li{
 	width: 50%;
 	position: relative;
 }
+/*.main-page .left-content:hover .md-popup-1{
+	opacity: 0;
+}*/
+.hover{
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+.main-page .left-content .md-popup-0:hover img{
+	opacity: 1 !important;
+	transition-duration: 0.5s;
+	transform: scale(1.1);
+}
+.main-page .left-content .md-popup-1:hover img{
+	opacity: 1 !important;
+	transition-duration: 0.5s;
+	transform: scale(1.1);
+}
 .main-page .right-content{
 	float: left;
 	width: 50%;
@@ -310,7 +327,7 @@ ul li{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 45.5%;
+	left: 45%;
     top: 40.5%;
     width: 10%;
 }
@@ -318,7 +335,7 @@ ul li{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 27.5%;
+	left: 26.5%;
     top: 40.5%;
     width: 10%;
 }
@@ -326,7 +343,7 @@ ul li{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 36.5%;
+	left: 35.5%;
     top: 40.5%;
     width: 10%;
 }
@@ -334,7 +351,7 @@ ul li{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 55.5%;
+	left: 54.5%;
     top: 40.5%;
     width: 10%;
 }
@@ -342,47 +359,47 @@ ul li{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 45.5%;
-    top: 26.5%;
+	left: 45%;
+    top: 27.5%;
     width: 10%;
 }
 .main-page .left-content .md-popup-6{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 55.5%;
-    top: 26.5%;
+	left: 54.5%;
+    top: 27.5%;
     width: 10%;
 }
 .main-page .left-content .md-popup-7{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 27.5%;
-    top: 52.5%;
+	left: 26.5%;
+    top: 53.5%;
     width: 10%;
 }
 .main-page .left-content .md-popup-8{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 36.5%;
-    top: 52.5%;
+	left: 35.5%;
+    top: 53.5%;
     width: 10%;
 }
 .main-page .left-content .md-popup-9{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 45.5%;
-    top: 52.5%;
+	left: 45%;
+    top: 53.5%;
     width: 10%;
 }
 .main-page .left-content .md-popup-10{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-    left: 55.5%;
+    left: 54.5%;
     top: 53.5%;
     width: 10%;
 }
@@ -390,24 +407,24 @@ ul li{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 36.5%;
-    top: 65.5%;
+	left: 35.5%;
+    top: 66.5%;
     width: 10%;
 }
 .main-page .left-content .md-popup-12{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 45.5%;
-    top: 65.5%;
+	left: 45%;
+    top: 66.5%;
     width: 10%;
 }
 .main-page .left-content .md-popup-13{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 55.5%;
-    top: 65.5%;
+	left: 54.5%;
+    top: 66.5%;
     width: 10%;
 }
 .main-page .left-content .md-popup-0 img{
@@ -420,7 +437,37 @@ ul li{
     left: 27%;
     top: 56%;
     width: 49%;
-    z-index: 2;
+    z-index: 1;
+    animation: md_opacity infinite 5s;
+}
+@keyframes md_opacity{
+	0%{
+		opacity: 1;
+	}
+	10%{
+		opacity: 1;
+	}
+	13%{
+		opacity: 0;
+	}
+	16%{
+		opacity: 1;
+	}
+	19%{
+		opacity: 0;
+	}
+	22%{
+		opacity: 1;
+	}
+	25%{
+		opacity: 0;
+	}
+	27%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
 }
 .main-page .left-content .bg-op-1{
 	position: absolute;

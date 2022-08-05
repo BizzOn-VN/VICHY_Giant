@@ -47,10 +47,10 @@ jQuery(document).ready(function ($) {
         }
         var getheight = function(){
             var  h3height = $('.main-page .right-content').outerHeight();         
-            $('.main-page .left-content').height(h3height); 
+            $('.main-page .left-content').css("height",h3height); 
             var onresize = function() {
                var  h3height = $('.main-page .right-content').outerHeight();         
-               $('.main-page .left-content').height(h3height); 
+               $('.main-page .left-content').css("height",h3height); 
             };
             window.addEventListener("resize", onresize);
         }
@@ -87,10 +87,10 @@ jQuery(document).ready(function ($) {
              new WOW().init();
             $('.ui.checkbox').checkbox();
             $(".the-le").fancybox();
-            // $("#modal-wrong").fancybox().trigger('click');
-            // $("#modal-correct").fancybox().trigger('click');
-            // $("#modal-scanqr").fancybox().trigger('click');
-            // $("#modal-sucess").fancybox().trigger('click');
+            $("#modal-wrong").fancybox().trigger('click');
+            $("#modal-correct").fancybox().trigger('click');
+            $("#modal-scanqr").fancybox().trigger('click');
+            $("#modal-sucess").fancybox().trigger('click');
 
         }
 

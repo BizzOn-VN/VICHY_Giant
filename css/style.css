@@ -96,7 +96,7 @@ ul li{
 }
 .main-page .left-content{
 	float: left;
-	width: 50%;
+	width: 55%;
 	position: relative;
 }
 /*.main-page .left-content:hover .md-popup-1{
@@ -118,7 +118,7 @@ ul li{
 }
 .main-page .right-content{
 	float: left;
-	width: 50%;
+	width: 45%;
 }
 .main-page .left-content img{
 	width: 100%;
@@ -133,105 +133,105 @@ ul li{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 45%;
-    top: 40.5%;
-    width: 10%;
+	left: 46%;
+    top: 34.5%;
+    width: 8.5%;
 }
 .main-page .left-content .md-popup-2{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 26.5%;
-    top: 40.5%;
-    width: 10%;
+	left: 27.5%;
+    top: 34.5%;
+    width: 8.5%;
 }
 .main-page .left-content .md-popup-3{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 35.5%;
-    top: 40.5%;
-    width: 10%;
+	left: 36.5%;
+    top: 34.5%;
+    width: 8.5%;
 }
 .main-page .left-content .md-popup-4{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 54.5%;
-    top: 40.5%;
-    width: 10%;
+	left: 55.5%;
+    top: 34.5%;
+    width: 8.5%;
 }
 .main-page .left-content .md-popup-5{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 45%;
-    top: 27.5%;
-    width: 10%;
+	left: 46%;
+    top: 19.5%;
+    width: 8.5%;
 }
 .main-page .left-content .md-popup-6{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 54.5%;
-    top: 27.5%;
-    width: 10%;
+	left: 55.5%;
+    top: 19.5%;
+    width: 8.5%;
 }
 .main-page .left-content .md-popup-7{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 26.5%;
-    top: 53.5%;
-    width: 10%;
+	left: 27.5%;
+    top: 48.5%;
+    width: 8.5%;
 }
 .main-page .left-content .md-popup-8{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 35.5%;
-    top: 53.5%;
-    width: 10%;
+	left: 36.5%;
+    top: 48.5%;
+    width: 8.5%;
 }
 .main-page .left-content .md-popup-9{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 45%;
-    top: 53.5%;
-    width: 10%;
+	left: 46%;
+    top: 48.5%;
+    width: 8.5%;
 }
 .main-page .left-content .md-popup-10{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-    left: 54.5%;
-    top: 53.5%;
-    width: 10%;
+    left: 55.5%;
+    top: 48.5%;
+    width: 8.5%;
 }
 .main-page .left-content .md-popup-11{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 35.5%;
-    top: 66.5%;
-    width: 10%;
+	left: 36.5%;
+    top: 63.5%;
+    width: 8.5%;
 }
 .main-page .left-content .md-popup-12{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 45%;
-    top: 66.5%;
-    width: 10%;
+	left: 46%;
+    top: 63.5%;
+    width: 8.5%;
 }
 .main-page .left-content .md-popup-13{
 	position: absolute;
 	z-index: 2;
 	cursor: pointer;
-	left: 54.5%;
-    top: 66.5%;
-    width: 10%;
+	left: 55.5%;
+    top: 63.5%;
+    width: 8.5%;
 }
 .main-page .left-content .md-popup-0 img{
 	opacity: 0;
@@ -241,7 +241,7 @@ ul li{
 .main-page .left-content .md-text{
 	position: absolute;
     left: 27%;
-    top: 56%;
+    top: 50%;
     width: 49%;
     z-index: 1;
     animation: md_opacity infinite 5s;
@@ -282,21 +282,13 @@ ul li{
 	width: 100%;
 	height: 100%;
 	background: #000;
-	opacity: 0.7;
+	opacity: 0;
 }
 .main-page .right-content{
 	position: relative;
-	padding: 50px 20px;
+	/*padding: 50px 20px 100px;*/
 }
-.main-page .right-content .bg-op-1{
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: #000;
-	opacity: 0.6;
-}
+
 .main-page .right-content .md-img{
 	position: relative;
 }
@@ -308,12 +300,13 @@ ul li{
     z-index: 2;
 }
 .md-answer{
-   width: 30%;
-    height: 80%;
-    left: 20%;
-    top: 8%;
+   width: 28%;
+    height: 75%;
+    left: 25%;
+    top: 7%;
     min-width: 360px;
     display: none;
+    padding: 20px;
 }
 .md-answer .md-content{
 	text-align: center;
@@ -354,6 +347,11 @@ ul li{
 	padding: 5px 15px;
 	border-radius: 0px;
 }
+.md-answer .md-content input:hover{
+	background: #000;
+	color: #FFF;
+	transition-duration: 0.3s;
+}
 .md-wrong{
 	position: relative;
 }
@@ -375,6 +373,11 @@ ul li{
 	color: #000;
 	display: inline-block;
 }
+.md-wrong .md-content a:hover{
+	background: #000;
+	color: #FFF;
+	transition-duration: 0.3s;
+}
 .md-wrong .md-content h6{
 	font-size: 25px;
 }
@@ -384,15 +387,18 @@ ul li{
 }
 
 .md-correct {
-	width: 80%;
+	width: 75%;
 	background-color: rgba(255, 255, 255, 0.7);
 	top: 7%;
 	height: 80%;
 	display: none;
+	padding: 30px 40px;
 }
 .md-correct .md-content .md-left-content{
 	float: left;
-	width: 50%;
+	width: 40%;
+	margin-left: 5%;
+	padding-top: 25px;
 }
 .md-correct .md-content .md-left-content img{
 	width: 30%;
@@ -433,13 +439,13 @@ ul li{
 }
 .md-correct .md-content .md-left-content span{
 	display: block;
-	margin: 20px 0px;
+	margin: 10px 0px;
 	font-family: "ElleFutura-Medium";
 }
 .md-correct .md-content .md-left-content .ui.checkbox{
 	font-family: "ElleFutura-Medium";
 	display: table;
-	margin: 0 auto 15px auto;
+	margin: 0 auto 10px auto;
 	text-transform: uppercase;
 	font-size: 12px;
 }
@@ -453,6 +459,11 @@ ul li{
 	text-transform: uppercase;
 	padding: 5px 20px;
 	font-family: "SFUFuturaBold";
+}
+.md-correct .md-content .md-left-content input[type='button']:hover{
+	background: #000;
+	color: #FFF;
+	transition-duration: 0.3s;
 }
 .md-correct .md-content .md-left-content .ui.selection.dropdown{
 	height: 30px;
@@ -470,7 +481,8 @@ ul li{
 }
 .md-correct .md-content .md-right-content{
 	float: right;
-	width: 45%;
+	width: 42%;
+	margin-right: 3%;
 }
 .md-correct .md-content .md-right-content img{
 	width: 100%;
@@ -579,9 +591,15 @@ ul li{
 	    background-size: 100%;
 	    opacity: 1;
 }
+@media (max-width: 1200px){
+	.md-correct{
+		width: 80%;
+	}
+}
 @media screen and (max-width: 991px) and (min-width: 768px){
 	.md-correct{
 		font-size: 12px;
+		width: 90%;
 	}
 	.md-correct .md-content .md-left-content .md-col-1 input{
 		width: 55%;
@@ -611,6 +629,7 @@ ul li{
 	    max-width: 1230px;
 	}
 }
+
 @media screen and (max-width: 767px){
 	.container{
 		width: auto;
@@ -659,16 +678,25 @@ ul li{
 		font-size: 16px;
 	}
 	.md-scanqr .md-content p{
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.ui.checkbox input.hidden+label{
 		font-size: 15px;
 	}
 
+	.md-correct{
+		width: 90%;
+	}
+	.md-correct .md-content .md-right-content img{
+		width: 60%;
+		display: table;
+		margin: 0 auto;
+	}
 	.md-correct .md-content .md-left-content{
 		float: none;
 		width: 100%;
-		margin-bottom: 0px;
+		margin: 0px;
+		padding: 0px;
 	}
 	.md-correct .md-content .md-right-content{
 		float: none;
@@ -705,15 +733,16 @@ ul li{
 	}
 	.md-modal-fancybox{
 		width: 90%;
+		padding: 35px 20px !important;
 	}
 	.fancybox-content{
-		padding: 30px 20px;
+		padding: 20px;
 	}
 	.main-page .right-content .bg-op-1{
 		display: none;
 	}
 	.md-wrong .md-content h6{
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.md-wrong .md-content span{
 		font-size: 16px;

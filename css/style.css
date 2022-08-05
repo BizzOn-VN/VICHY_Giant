@@ -528,6 +528,14 @@ ul li{
 .fancybox-slide--html .fancybox-close-small{
 	display: none;
 }
+.fancybox-slide--html .md-close-popup{
+	display: block !important;
+    position: static;
+    width: auto;
+    left: auto;
+    top: auto;
+    margin: 0 auto;
+}
 .fancybox-is-open .fancybox-bg{
 	background: url(../images/bg-popup.jpg) no-repeat;
 	background-size: cover;

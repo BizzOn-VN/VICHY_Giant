@@ -66,6 +66,7 @@ jQuery(document).ready(function ($) {
                     $("#login_error").hide();
                 }
             });
+             $(".ctn-close").fancybox();
 
         }
         var getrandom = function(){        

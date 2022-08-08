@@ -306,24 +306,36 @@ ul li{
     top: 7%;
     min-width: 360px;
     display: none;
-    padding: 20px;
+    padding: 44px 20px;
 }
 .md-answer .md-content{
 	text-align: center;
 	text-transform: uppercase;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
 }
+
 .md-answer .md-content .ui.form .grouped.fields .field{
 	text-align: left;
+	margin-left: 20px;
+}
+.md-answer #answer-1 .ui.form .grouped.fields .field{
+	text-align: center;
+	margin-left: 0px;
 }
 .md-answer .md-content h6{
 	font-family: "ElleFutura-Bold";
-	font-size: 16px;
+	font-size: 18px;
+	margin-bottom: 20px;
 }
 .md-answer .md-content p{
 	font-family: "SFUFuturaBold";
 	font-weight: 700;
 	font-size: 30px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	text-decoration: underline;
 }
 .md-answer .md-content label{
@@ -336,7 +348,8 @@ ul li{
 	font-weight: 600 !important;
 }
 .ui.checkbox input.hidden+label{
-	font-size: 13px;
+	font-size: 16px;
+	 font-family: "ElleFutura-Medium";
 }
 .md-answer .md-content input{
 	font-family: "SFUFuturaHeavy";
@@ -346,6 +359,8 @@ ul li{
 	border: 1px solid #000;
 	padding: 5px 15px;
 	border-radius: 0px;
+	opacity: 1;
+	height: auto;
 }
 .md-answer .md-content input:hover{
 	background: #000;
@@ -380,6 +395,7 @@ ul li{
 }
 .md-wrong .md-content h6{
 	font-size: 25px;
+	margin-bottom: 10px;
 }
 .md-wrong .md-content span{
 	font-family: "SFUFuturaHeavy";
@@ -489,19 +505,8 @@ ul li{
 }
 .md-answer{
 	position: relative;
-	overflow: initial;
 }
-.md-answer::before{
-	content: "";
-    background: url(../images/ico-popup.png) no-repeat;
-    background-size: 100% auto;
-    width: 80px;
-    height: 95px;
-    left: -12%;
-    position: absolute;
-    bottom: -2%;
-    display: block;
-}
+
 .md-scanqr .md-content p{
 	text-decoration: none;
 	font-size: 14px;
@@ -672,7 +677,14 @@ ul li{
 		top: 7%;
 		min-width: auto;
 	}
-
+	.md-answer .md-content{
+		width: 90%;
+	}
+	.md-scanqr .md-content{
+		position: static;
+		width: 100%;
+		transform: translate(0,0);
+	}
 	.md-answer .md-content h6{
 		font-size: 20px;
 	}
@@ -744,7 +756,7 @@ ul li{
 		padding: 35px 20px !important;
 	}
 	.fancybox-content{
-		padding: 20px;
+		padding: 30px 20px;
 	}
 	.main-page .right-content .bg-op-1{
 		display: none;

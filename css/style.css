@@ -607,6 +607,15 @@ ul li{
 	    background-size: 100%;
 	    opacity: 1;
 }
+.logo-popup{
+	width: 30%;
+	min-width: 200px;
+	display: table;
+	margin: 0 auto 20px auto;
+}
+.logo-popup img{
+	width: 100%;
+}
 @media (max-width: 1200px){
 	.md-correct{
 		width: 80%;

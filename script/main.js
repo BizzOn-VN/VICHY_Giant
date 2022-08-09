@@ -66,6 +66,7 @@ jQuery(document).ready(function ($) {
                     $("#login_error").hide();
                 }
             });
+            
              $(".ctn-close").fancybox();
 
         }
@@ -90,8 +91,11 @@ jQuery(document).ready(function ($) {
             $(".the-le").fancybox();
             // $("#modal-wrong").fancybox().trigger('click');
             // $("#modal-correct").fancybox().trigger('click');
-            // $("#modal-scanqr").fancybox().trigger('click');
             // $("#modal-sucess").fancybox().trigger('click');
+            // $("#modal-scanqr").fancybox({
+            //    clickSlide: false,
+            //    clickOutside: false
+            // }).trigger('click');
 
         }
 

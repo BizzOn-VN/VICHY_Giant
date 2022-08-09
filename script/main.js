@@ -94,7 +94,10 @@ jQuery(document).ready(function ($) {
             // $("#modal-sucess").fancybox().trigger('click');
             // $("#modal-scanqr").fancybox({
             //    clickSlide: false,
-            //    clickOutside: false
+            //    clickOutside: false,
+            //    'afterClose':function () {
+            //          window.location.reload();
+            //        },
             // }).trigger('click');
 
         }

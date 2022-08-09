@@ -533,6 +533,9 @@ ul li{
 .fancybox-slide--html .fancybox-close-small{
 	display: none;
 }
+.fancybox-slide--html .md-scanqr .fancybox-close-small{
+	display: block !important;
+}
 .fancybox-slide--html .md-close-popup{
 	display: block !important;
     position: static;
@@ -779,6 +782,11 @@ ul li{
 @media (max-width: 420px){
 	.header .main-menu-mb ul li a{
 		font-size: 10px;
+	}
+	.md-scanqr .md-content{
+		position: absolute;
+		transform: translate(-50%,-50%);
+		width: 90%;
 	}
 }
 @media (max-width: 380px){

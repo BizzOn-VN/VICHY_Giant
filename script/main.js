@@ -90,17 +90,21 @@ jQuery(document).ready(function ($) {
             $('.ui.checkbox').checkbox();
             $(".the-le").fancybox({});
             // $("#modal-wrong").fancybox().trigger('click');
-            $("#modal-correct").fancybox({
-                clickSlide: false,
-               clickOutside: false,
-                touch: false,
-            }).trigger('click');
-            $("#modal-sucess").fancybox().trigger('click');
+            // $("#modal-correct").fancybox({
+            //     clickSlide: false,
+            //    clickOutside: false,
+            //     touch: false,
+            // }).trigger('click');
+            // $("#modal-sucess").fancybox().trigger('click');
             $("#modal-scanqr").fancybox({
-               clickSlide: false,
-               clickOutside: false,
-               touch: false,
-               'afterClose':function () {
+               clickSlide : false,
+               clickOutside : false,
+               touch:false,
+                mobile: {
+                            clickSlide: false,
+                            touch: false
+                        },
+                'afterClose':function () {
                      window.location.reload();
                    },
             }).trigger('click');

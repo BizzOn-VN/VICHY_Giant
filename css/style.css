@@ -601,6 +601,9 @@ ul li{
 .md-modal-fancybox .fancybox-close-small{
 	display: block !important;
 }
+.md-correct .fancybox-close-small{
+	display: block !important;
+}
 .md-modal-fancybox svg{
 	background: url(../images/ico-close-popup.png) no-repeat;
 	    -webkit-background-size: 100% 100%;

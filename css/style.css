@@ -1164,12 +1164,10 @@ ul li{
 	.ui.radio.checkbox .box:before, .ui.radio.checkbox label:before{
 		width: 25px;
 		height: 25px;
-		top: 10px;
 	}
 	.ui.radio.checkbox .box:after, .ui.radio.checkbox label:after{
 		width: 25px;
 		height: 25px;
-		top: 10px;
 	}
 }
 @media screen and (min-width: 1600px), and (min-height: 900px){
@@ -1187,7 +1185,7 @@ ul li{
 		opacity: 0.8;
 	    z-index: 2;
 	    cursor: pointer;
-	    left: 419px;
+	    left: 254px;
 	    top: 40.5%;
 	    width: 76.8px;
 	}
@@ -1232,7 +1230,7 @@ ul li{
 		opacity: 0.8;
 	    z-index: 2;
 	    cursor: pointer;
-	    left: 419px;
+	    left: 254px;
 	    top: 53.5%;
 	    width: 76.8px;
 	}

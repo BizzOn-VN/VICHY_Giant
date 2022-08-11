@@ -120,7 +120,7 @@ jQuery(document).ready(function ($) {
             ;
              new WOW().init();
             $('.ui.checkbox').checkbox();
-            $(".the-le").fancybox({});
+            // $(".the-le").fancybox({});
             // $("#modal-wrong").fancybox().trigger('click');
             // $("#modal-correct").fancybox({
             //     clickSlide: false,

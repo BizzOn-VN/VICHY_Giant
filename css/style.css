@@ -844,6 +844,13 @@ ul li{
 .logo-popup img{
 	width: 100%;
 }
+.ui.checkbox .box:before, .ui.checkbox label:before{
+	top: 4px;
+}
+.ui.checkbox .box:after, .ui.checkbox label:after{
+	top: 4px;
+}
+
 @media (max-width: 1200px){
 	.md-correct{
 		width: 80%;

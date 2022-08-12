@@ -145,8 +145,12 @@ ul li{
 .main-page .left-content .main-img{
 	height: 100%;
 }
+.main-page .right-content .md-img{
+	height: 100%;
+}
 .main-page .right-content img{
-	width: 100%
+	width: 100%;
+	height: 100%;
 }
 .main-page .left-content .img-light{
 	position: absolute;
@@ -937,6 +941,12 @@ ul li{
 	}
 	.bg-op-6{
 		display: none;
+	}
+	.main-page .right-content .md-img{
+		height: auto;
+	}
+	.main-page .right-content img{
+		height: auto;
 	}
 	.md-answer .md-content{
 		left: 50%;

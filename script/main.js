@@ -88,12 +88,30 @@ jQuery(document).ready(function ($) {
             });
         }
         var getheight = function(){
-            var  h3height = $('.main-page .right-content').outerHeight();         
-            $('.main-page .left-content').css("height",h3height); 
+            // var  h3height = $('.main-page .right-content').outerHeight();         
+            // $('.main-page .left-content').css("height",h3height); 
+            // var onresize = function() {
+            //    var  h3height = $('.main-page .right-content').outerHeight();         
+            //    $('.main-page .left-content').css("height",h3height); 
+            // };
+            // window.addEventListener("resize", onresize);
+            var h3height = 0;
+            $('.left-content').each(function() {
+                if(h3height < $('.right-content').height()){
+                  h3height = $('.right-content').height();
+                };
+            });
+            $('.md-set-height').height(h3height); 
             var onresize = function() {
-               var  h3height = $('.main-page .right-content').outerHeight();         
-               $('.main-page .left-content').css("height",h3height); 
-            };
+               $('.md-set-height').css("height","auto");
+               var h3height = 0;
+               $('.md-set-height').each(function() {
+                   if(h3height < $('.right-content').height()){
+                  h3height = $('.right-content').height();
+                };
+               });
+               $('.md-set-height').height(h3height);
+               };
             window.addEventListener("resize", onresize);
         }
         var fancybox = function(){

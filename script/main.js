@@ -97,7 +97,7 @@ jQuery(document).ready(function ($) {
             window.addEventListener("resize", onresize);
         }
         var fancybox = function(){
-            $(".ctn-button").fancybox({});
+            $(".ctn-button").fancybox();
             
              $(".ctn-close").fancybox();
 
@@ -120,7 +120,34 @@ jQuery(document).ready(function ($) {
             ;
              new WOW().init();
             $('.ui.checkbox').checkbox();
-        
+            new WOW().init();
+            $('.ui.checkbox').checkbox();
+            $(".the-le").fancybox({});
+            // $("#modal-wrong").fancybox({
+            //      lickSlide: false,
+            //    clickOutside: false,
+            //  }).trigger('click');
+            // $("#modal-correct").fancybox({
+            //     clickSlide: false,
+            //    clickOutside: false,
+            // }).trigger('click');
+            // $("#modal-sucess").fancybox({
+            //     clickSlide: false,
+            //    clickOutside: false,
+            // }).trigger('click'); 
+            // $("#modal-scanqr").fancybox({
+            //    clickSlide: false,
+            //    clickOutside: false,
+            //    'afterClose':function () {
+            //          window.location.reload();
+            //        },
+            // }).trigger('click');
+
+            // $("#provn-1").fancybox({
+            //    clickSlide: false,
+            //    clickOutside: false,
+            // });
+
 
         }
 

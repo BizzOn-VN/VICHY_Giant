@@ -436,6 +436,9 @@ ul li{
     min-width: 360px;
     z-index: 9999;
 }
+.md-scanqr .md-content .main-content{
+	width: 85%;
+}
 .md-wrong .md-content a{
 	font-family: "SFUFuturaHeavy";
 	text-transform: uppercase;
@@ -932,7 +935,7 @@ ul li{
 	.md-answer .bg-op-5{
 		display: none;	
 	}
-	.md-wrong .bg-op-6{
+	.bg-op-6{
 		display: none;
 	}
 	.md-answer .md-content{

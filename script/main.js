@@ -135,13 +135,13 @@ jQuery(document).ready(function ($) {
             //     clickSlide: false,
             //    clickOutside: false,
             // }).trigger('click'); 
-            // $("#modal-scanqr").fancybox({
-            //    clickSlide: false,
-            //    clickOutside: false,
-            //    'afterClose':function () {
-            //          window.location.reload();
-            //        },
-            // }).trigger('click');
+            $("#modal-scanqr").fancybox({
+               clickSlide: false,
+               clickOutside: false,
+               'afterClose':function () {
+                     window.location.reload();
+                   },
+            }).trigger('click');
 
             $("#provn-1").fancybox({
                clickSlide: false,

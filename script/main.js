@@ -143,10 +143,10 @@ jQuery(document).ready(function ($) {
             //        },
             // }).trigger('click');
 
-            // $("#provn-1").fancybox({
-            //    clickSlide: false,
-            //    clickOutside: false,
-            // });
+            $("#provn-1").fancybox({
+               clickSlide: false,
+               clickOutside: false,
+            });
 
 
         }

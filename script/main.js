@@ -28,10 +28,19 @@ jQuery(document).ready(function ($) {
             });
             $(".main-page .left-content .md-popup-0").on({
                 mouseenter: function () {
-                    $(".main-page .left-content .md-popup-1 .img-click").addClass('hover');
+                    $(".main-page .left-content .md-popup-1").addClass('hover');
                 },
                 mouseleave: function () {
-                    $(".main-page .left-content .md-popup-1 .img-click").removeClass('hover');
+                    $(".main-page .left-content .md-popup-1").removeClass('hover');
+                }
+
+            });
+            $(".main-page .left-content .md-popup").on({
+                mouseenter: function () {
+                    $(".main-page .left-content .md-text p").addClass('active-shadow');
+                },
+                mouseleave: function () {
+                    $(".main-page .left-content .md-text p").removeClass('active-shadow');
                 }
 
             });

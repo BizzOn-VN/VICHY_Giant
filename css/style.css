@@ -126,6 +126,8 @@ ul li{
 	transition-duration: 0.5s;
 	transform: scale(1.1);
 }
+
+
 .main-page .left-content .md-popup-0:hover .img-light{
 	opacity: 1;
 	transition-delay: 0.2s;
@@ -133,6 +135,15 @@ ul li{
 .main-page .left-content .md-popup-1:hover .img-light{
 	opacity: 1;
 	transition-delay: 0.2s;
+}
+
+.main-page .left-content .md-popup-0:hover .md-text{
+	opacity: 1;
+	
+}
+.main-page .left-content .md-popup-1:hover .md-text{
+	opacity: 1;
+	
 }
 
 .main-page .right-content{
@@ -157,11 +168,10 @@ ul li{
 	left: -23%;
     bottom: -3%;
 	width: 80%;
-	opacity: 0;
 }
 .main-page .left-content .md-popup-1{
 	position: absolute;
-	z-index: 2;
+	z-index: 3;
 	cursor: pointer;
     left: 45.5%;
     top: 40.5%;
@@ -169,7 +179,7 @@ ul li{
 }
 .main-page .left-content .md-popup-2{
 	position: absolute;
-	z-index: 2;
+	z-index: 3;
 	cursor: pointer;
 	left: 27.5%;
     top: 40.5%;
@@ -177,7 +187,7 @@ ul li{
 }
 .main-page .left-content .md-popup-3{
 	position: absolute;
-	z-index: 2;
+	z-index: 3;
 	cursor: pointer;
 	left: 36.5%;
     top: 40.5%;
@@ -185,7 +195,7 @@ ul li{
 }
 .main-page .left-content .md-popup-4{
 	position: absolute;
-	z-index: 2;
+	z-index: 3;
 	cursor: pointer;
 	left: 54.5%;
     top: 40.5%;
@@ -209,7 +219,7 @@ ul li{
 }
 .main-page .left-content .md-popup-7{
 	position: absolute;
-	z-index: 2;
+	z-index: 4;
 	cursor: pointer;
 	left: 27.5%;
     top: 53%;
@@ -217,7 +227,7 @@ ul li{
 }
 .main-page .left-content .md-popup-8{
 	position: absolute;
-	z-index: 2;
+	z-index: 4;
 	cursor: pointer;
 	left: 36.5%;
     top: 53%;
@@ -225,7 +235,7 @@ ul li{
 }
 .main-page .left-content .md-popup-9{
 	position: absolute;
-	z-index: 2;
+	z-index: 4;
 	cursor: pointer;
 	left: 45.5%;
     top: 53%;
@@ -233,7 +243,7 @@ ul li{
 }
 .main-page .left-content .md-popup-10{
 	position: absolute;
-	z-index: 2;
+	z-index: 4;
 	cursor: pointer;
     left: 54.5%;
     top: 53%;
@@ -241,7 +251,7 @@ ul li{
 }
 .main-page .left-content .md-popup-11{
 	position: absolute;
-	z-index: 2;
+	z-index: 5;
 	cursor: pointer;
 	left: 36.5%;
     top: 66.5%;
@@ -249,7 +259,7 @@ ul li{
 }
 .main-page .left-content .md-popup-12{
 	position: absolute;
-	z-index: 2;
+	z-index: 5;
 	cursor: pointer;
 	left: 45.5%;
     top: 66.5%;
@@ -257,7 +267,7 @@ ul li{
 }
 .main-page .left-content .md-popup-13{
 	position: absolute;
-	z-index: 2;
+	z-index: 5;
 	cursor: pointer;
 	left: 54.5%;
     top: 66.5%;
@@ -268,15 +278,20 @@ ul li{
 	z-index: 2;
 	cursor: pointer;
 }
+.main-page .left-content .md-popup-0 img{
+	opacity: 0;
+}
 .main-page .left-content .md-text{
 	position: absolute;
-    left: 27%;
-    top: 55%;
-    width: 49%;
+    left: 50%;
+    top: 112%;
+    width: 500%;
+    transform: translateX(-50%);
     z-index: 1;
+    opacity: 0;
     animation: md_opacity infinite 5s;
 }
-@keyframes md_opacity{
+/*@keyframes md_opacity{
 	0%{
 		opacity: 1;
 	}
@@ -304,6 +319,30 @@ ul li{
 	100%{
 		opacity: 1;
 	}
+}*/
+.main-page .left-content .md-text p{
+	
+	font-family: "SFUFuturaBold";
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+	opacity: 0.9;
+	font-size: 14px;
+	letter-spacing: 0.6px;
+	transition-delay: 0.3s;
+}
+.active-shadow{
+	text-shadow:  0px 1px 7px #fff;
+	transition-delay: 0.3s;
+}
+.main-page .left-content .md-text p span{
+	font-family: "SFUFuturaBook";
+	display: block;
+	font-size: 13px;
+	margin-top: 3px;
+}
+.main-page .left-content .md-popup-1 .md-text{
+	opacity: 1;
 }
 .main-page .left-content .bg-op-1{
 	position: absolute;
@@ -391,9 +430,10 @@ ul li{
 .md-answer .md-content .ui.form .grouped.fields>label{
 	margin-bottom: 20px;
 	font-weight: 600 !important;
+	font-size: 15px;
 }
 .ui.checkbox input.hidden+label{
-	font-size: 16px;
+	font-size: 15px;
 	 font-family: "ElleFutura-Medium";
 	 line-height: 1.4;
 }
@@ -962,7 +1002,7 @@ ul li{
 		font-size: 40px;
 	}
 	.md-answer .md-content .ui.form .grouped.fields>label{
-		font-size: 16px;
+		font-size: 15px;
 	}
 	.md-answer .md-content input{
 		font-size: 16px;
@@ -1117,7 +1157,7 @@ ul li{
 }
 @media screen and (max-width: 420px){
 	.md-answer{
-		height: 75% !important;
+		height: 80% !important;
 		top: 5%;
 	}
 }

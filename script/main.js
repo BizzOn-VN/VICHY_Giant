@@ -144,9 +144,6 @@ jQuery(document).ready(function ($) {
         var getplugin = function(){
               $('.ui.dropdown')
               .dropdown()
-            ;
-             new WOW().init();
-            $('.ui.checkbox').checkbox();
             new WOW().init();
             $('.ui.checkbox').checkbox();
             $(".the-le").fancybox({});

@@ -110,11 +110,19 @@ ul li{
 	transition-duration: 0.5s;
 }
 .main-page{
-	/*position: fixed;
-	left: 0%;
-	top: 14%;
-	width: 100%;
-	height: 100%;*/
+	opacity: 1;
+	animation: ani-mainpage 1.2s ease-in;
+}
+@keyframes ani-mainpage{
+	0%{
+		opacity: 0;
+	}
+	80%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
 }
 .main-page .left-content .md-popup-0:hover img{
 	opacity: 1 !important;
@@ -412,7 +420,7 @@ ul li{
 }
 .md-answer .md-content h6{
 	font-family: "ElleFutura-Bold";
-	font-size: 18px;
+	font-size: 20px;
 	margin-bottom: 20px;
 }
 .md-answer .md-content p{
@@ -705,7 +713,7 @@ ul li{
 	opacity: 0.8;
     z-index: 2;
     cursor: pointer;
-    left: 358px;
+    left: 338px;
     top: 40.5%;
     width: 65.8px;
 }
@@ -714,7 +722,7 @@ ul li{
 	opacity: 0.8;
     z-index: 2;
     cursor: pointer;
-    left: 216px;
+    left: 196px;
     top: 40.5%;
     width: 65.8px;
 }
@@ -723,7 +731,7 @@ ul li{
 	opacity: 0.8;
     z-index: 2;
     cursor: pointer;
-    left: 285px;
+    left: 265px;
     top: 40.5%;
     width: 65.8px;
 }
@@ -732,7 +740,7 @@ ul li{
 	opacity: 0.8;
     z-index: 2;
     cursor: pointer;
-    left: 428px;
+    left: 408px;
     top: 40.5%;
     width: 65.8px;
 }
@@ -741,7 +749,7 @@ ul li{
 	opacity: 0.8;
     z-index: 2;
     cursor: pointer;
-    left: 358px;
+    left: 338px;
     top: 27.5%;
     width: 65.8px;
 }
@@ -750,7 +758,7 @@ ul li{
 	opacity: 0.8;
     z-index: 2;
     cursor: pointer;
-    left: 428px;
+    left: 408px;
     top: 27.5%;
     width: 65.8px;
 }
@@ -759,7 +767,7 @@ ul li{
 	opacity: 0.8;
     z-index: 2;
     cursor: pointer;
-    left: 216px;
+    left: 196px;
     top: 53.5%;
     width: 65.8px;
 }
@@ -768,7 +776,7 @@ ul li{
 	opacity: 0.8;
     z-index: 2;
     cursor: pointer;
-    left: 285px;
+    left: 265px;
     top: 53.5%;
     width: 65.8px;
 }
@@ -777,7 +785,7 @@ ul li{
 	opacity: 0.8;
     z-index: 2;
     cursor: pointer;
-    left: 358px;
+    left: 338px;
     top: 53.5%;
     width: 65.8px;
 }
@@ -786,7 +794,7 @@ ul li{
 	opacity: 0.8;
     z-index: 2;
     cursor: pointer;
-    left: 428px;
+    left: 408px;
     top: 53.5%;
     width: 65.8px;
 }
@@ -795,7 +803,7 @@ ul li{
 	opacity: 0.8;
     z-index: 2;
     cursor: pointer;
-    left: 285px;
+    left: 265px;
     top: 66.5%;
     width: 65.8px;
 }
@@ -804,7 +812,7 @@ ul li{
 	opacity: 0.8;
     z-index: 2;
     cursor: pointer;
-    left: 358px;
+    left: 338px;
     top: 66.5%;
     width: 65.8px;
 }
@@ -813,7 +821,7 @@ ul li{
 	opacity: 0.8;
     z-index: 2;
     cursor: pointer;
-    left: 428px;
+    left: 408px;
     top: 66.5%;
     width: 65.8px;
 }

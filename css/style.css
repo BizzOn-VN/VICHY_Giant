@@ -176,6 +176,7 @@ ul li{
 	left: -23%;
     bottom: -3%;
 	width: 80%;
+	opacity: 0;
 }
 .main-page .left-content .md-popup-1{
 	position: absolute;

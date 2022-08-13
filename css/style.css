@@ -1112,6 +1112,12 @@ ul li{
 		top: 0%;
 		right: 0%;
 	}
+	.main-page .left-content .md-text p {
+		font-size: 12px;
+	}
+	.main-page .left-content .md-text p span{
+		font-size: 10px;
+	}
 }
 @media (max-width: 520px){
 	.header .main-menu-mb ul li a{

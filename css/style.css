@@ -492,6 +492,42 @@ ul li{
 .md-scanqr .md-content .main-content{
 	width: 85%;
 }
+.md-scanqr .md-content .main-content .md-text-qr{
+	position: relative;
+}
+.md-scanqr .md-content .main-content .md-text-qr .qr-1{
+	position: absolute;
+    right: 31.5%;
+    top: 90%;
+    width: 10%;
+    font-size: 5.4px;
+    margin-bottom: 0px;
+}
+.md-scanqr .md-content .main-content .md-text-qr  span{
+	display: block;
+}
+.md-scanqr .md-content .main-content .md-text-qr .sp-qr-1{
+	font-family: "SFUFuturaHeavy";
+}
+.md-scanqr .md-content .main-content .md-text-qr .sp-qr-2{
+	font-family: "ElleFutura-Medium";
+}
+.md-scanqr .md-content .main-content .md-text-qr .qr-2{
+	position: absolute;
+	right: 14.5%;
+   	top: 80%;
+    width: 13%;
+    font-size: 5.4px;
+    margin-bottom: 0px;
+}
+.md-scanqr .md-content .main-content .md-text-qr .qr-3{
+	position: absolute;
+    right: -1.5%;
+    top: 72%;
+    width: 14%;
+    font-size: 5.4px;
+    margin-bottom: 0px;
+}
 .md-wrong .md-content a{
 	font-family: "SFUFuturaHeavy";
 	text-transform: uppercase;
@@ -1118,6 +1154,9 @@ ul li{
 	.main-page .left-content .md-text p span{
 		font-size: 10px;
 	}
+	.md-scanqr .md-content .main-content .md-text-qr p{
+		font-size: 6px !important;
+	}
 }
 @media (max-width: 520px){
 	.header .main-menu-mb ul li a{
@@ -1243,6 +1282,9 @@ ul li{
 	.ui.radio.checkbox .box:after, .ui.radio.checkbox label:after{
 		width: 25px;
 		height: 25px;
+	}
+	.md-scanqr .md-content .main-content .md-text-qr p{
+		font-size: calc(1px + 0.3vw) !important;
 	}
 }
 @media screen and (min-width: 1600px), and (min-height: 900px){
